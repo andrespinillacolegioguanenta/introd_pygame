@@ -22,7 +22,7 @@ superficie_1 = pygame.Surface((200,200))
 superficie_2 = pygame.Surface((200,200))
 superficie_3 = pygame.Surface((200,200))
 superficie_4 = pygame.Surface((200,200))
-superficie_5 = pygame.Surface((50,50))
+superficie_5 = pygame.Surface((100,100))
 
 # Rellenamos la superficie de color 
 superficie_1.fill(rojo)
@@ -35,7 +35,7 @@ ventana.blit(superficie_1, (0, 0))
 ventana.blit(superficie_2, (0, 200))
 ventana.blit(superficie_3, (200, 200))
 ventana.blit(superficie_4, (200, 0))
-ventana.blit(superficie_5, (175, 175))
+ventana.blit(superficie_5, (150, 150))
 
 # Actualizar la pantalla
 pygame.display.flip()
