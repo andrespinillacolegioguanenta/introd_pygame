@@ -93,3 +93,4 @@ while True:
 
     # actualizar visualización de la ventana
     pygame.display.flip()
+
